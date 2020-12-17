@@ -1,0 +1,39 @@
+Pages:
+    Artist profile management section
+        - artist users can create songs, albums, and configure
+          the design of their artist pages
+    Artist page
+        - all users can view the artist page
+    Home page
+        - Awesome Santa cover image
+        - Recommend some beginning albums/songs
+    About page
+        - Project
+
+"Artist profile management section":
+    - authorized for artist users only
+        - isArtistUser boolean true/false
+    - album management
+        - upload image for album
+        - create song entries
+    - artist configuration (design)
+        - upload cover photo
+        - bio
+
+"Artist page":
+    - seeing the albums of an artist
+    - seeing a specific album - play songs from that album
+    - show highlighted
+    - integrate cover photo/other descriptions
+
+"Nav bar":
+    - search
+        - Look for songs and artists
+            - by genre
+            - by search term (text for a song/album/artist name)
+        - Jump to that artist/song/album
+
+"Home page"
+    - nice design
+    - here are the latest albums
+

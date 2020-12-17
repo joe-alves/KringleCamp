@@ -1,0 +1,37 @@
+All tables will have:
+    id
+    createdAt
+    updatedAt
+
+Users
+    username
+    email
+    password
+    isArtist
+
+SantaBand
+    name
+    location
+    bio/description
+    coverPhotoUrl
+    backgroundImage
+SantaBand_Genre
+    santaBandId (FK)
+    genreId (FK)
+Genre
+    name
+
+Album
+    name
+    description
+    albumCoverUrl
+    price
+    releaseDate
+    santaBandId (FK)
+    highlightedSongId
+
+Song
+    name
+    duration
+    mp3Url
+    albumId (FK)
