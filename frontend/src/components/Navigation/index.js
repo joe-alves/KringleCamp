@@ -23,7 +23,10 @@ function Navigation({ isLoaded }){
   }
 
   return (
-    <ul>
+    <ul id="top-nav-bar">
+      <li>
+        <h2 id="nav-bar-logo">KringleCamp</h2>
+      </li>
       <li>
         <NavLink exact to="/">Home</NavLink>
         {isLoaded && sessionLinks}

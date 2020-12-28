@@ -28,8 +28,6 @@ module.exports = {
     const popId = createdGenres[3].id;
     const rbId = createdGenres[4].id;
 
-    
-
     return true;
   },
 
