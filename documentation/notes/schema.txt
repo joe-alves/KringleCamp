@@ -8,18 +8,20 @@ Users
     email
     password
     isArtist
-
+Users_SantaBand
+    santaBandId (FK)
+    userId (FK)
 SantaBand
     name
     location
     bio/description
     coverPhotoUrl
-    backgroundImage
+    backgroundImageUrl
+Genre
+    name
 SantaBand_Genre
     santaBandId (FK)
     genreId (FK)
-Genre
-    name
 
 Album
     name
@@ -28,10 +30,13 @@ Album
     price
     releaseDate
     santaBandId (FK)
-    highlightedSongId
+    coverPhotoUrl
 
 Song
     name
     duration
     mp3Url
+    lyrics
     albumId (FK)
+    isFeatured
+    albumPosition
