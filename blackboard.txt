@@ -1,0 +1,22 @@
+
+
+
+    Feature list and database schema
+
+    ___
+    Migrations (which create tables)
+    Models (which you will use to query your DB)
+
+    Seeder (add data to database for development)
+    ___
+
+    Tuesday:
+    Express routes to send that data as JSON
+        - /api/beers
+        - /api/projects/16
+
+    Front-end components that expect data
+        React component that takes a prop some information
+        that looks like what is in your database
+
+    Whatever feature (combination of Express route + React components)
