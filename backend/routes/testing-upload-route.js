@@ -4,7 +4,7 @@ const router = require("express").Router();
 router.post("/", singleMulterUpload("bubblebop"), async (req, res, next) => {
   try {
     const urlOnS3 = await singlePublicFileUpload(req.file);
-    console.log(urlOnS3);
+    console.log(urlOnS3); // PUT IT IN THE DATABASE
     res.json({ message: "Hi :)" });
   } catch (e) {
     next(e);

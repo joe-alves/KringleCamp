@@ -1,6 +1,8 @@
 import "./index.css";
 import picture from "./aerosmithsantas.jpeg";
 
+import {Link} from "react-router-dom";
+
 import {useSelector} from 'react-redux';
 
 const Home = () => {
@@ -17,7 +19,7 @@ const Home = () => {
                     <h1>Welcome to KringleCamp!</h1>
                 </div>
             </div>
-            {loggedInUser && <h3>Welcome {loggedInUser.username}, come check out some bands!</h3>}
+            {loggedInUser && <h3>Welcome {loggedInUser.username}, come check out some <Link to="/bands">bands!</Link></h3>}
         </div>
     );
 };
